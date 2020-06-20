@@ -1,0 +1,63 @@
+package Week1;
+import java.util.*;
+public class square {
+	public static void main (String []args) {
+	Scanner s=new Scanner(System.in);
+	int a=s.nextInt();
+	int c=a*a;
+	System.out.println(c);
+}
+}
+
+#ques 2
+package Week1;
+
+import java.util.Scanner;
+
+public class Table {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner s=new Scanner(System.in);
+		int n=s.nextInt();
+		
+    for(int i=1;i<=10;i++)
+   {
+	int c=n*i;
+	 System.out.println(c);
+   }
+	}
+
+}
+
+
+#ques 3
+package Week1;
+import java.util.Scanner;
+public class Upward_Star_Triangle {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner s=new Scanner(System.in);
+		int i,j;
+		int n=s.nextInt();
+		for( i=1;i<=n;i++)
+		{
+			for(j=1;j<=i;j++)
+			{
+  if(j<=i)
+ {	
+	System.out.print("*");
+   }
+else
+  {
+	System.out.print(" ");
+  }
+		     }
+System.out.println();
+		}
+	}
+
+}
+
+
